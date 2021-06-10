@@ -84,10 +84,6 @@ public class cifras{
             if(opcao==true){
                 texto = texto.replace("","p");
             }else{
-                /*
-                 * Aqui usei uma dica do colega Alan Santana de transformar meu "ppp" em outro valor para poder manter o P no final.
-                 * Mas troquei o "$" que ele usou por "\0", um texto nulo, assim podendo utilizar "$" na minha String.
-                */
                 texto = texto.replace("ppp","\0");
                 texto = texto.replace("p","");
                 texto = texto.replace("\0","p");
